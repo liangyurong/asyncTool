@@ -50,13 +50,13 @@ public class Test {
         workerWrapper1.setParam(result);
         workerWrapper2.setParam(result1);
 
-        //
+        // 开始运行
         Async.beginWork(3500, workerWrapper);
 
         //
         System.out.println(workerWrapper2.getWorkResult());
 
-        //
+        // 停止运行
         Async.shutDown();
     }
 }

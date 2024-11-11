@@ -21,6 +21,7 @@ public class Async {
     private static final ThreadPoolExecutor COMMON_POOL = (ThreadPoolExecutor) Executors.newCachedThreadPool();
     /**
      * 注意，这里是个static，也就是只能有一个线程池。用户自定义线程池时，也只能定义一个
+     * todo: 为什么只定义一个线程池？
      */
     private static ExecutorService executorService;
 
