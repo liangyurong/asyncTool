@@ -2,7 +2,10 @@ package com.jd.platform.async.worker;
 
 /**
  * 执行结果
+ *
  */
+
+// todo V代表了什么：
 public class WorkResult<V> {
     /**
      * 执行的结果
